@@ -1,0 +1,8 @@
+// File: tonconnect-manifest.json
+{
+  "url": "https://your-username.github.io/telegram-gifts-market",
+  "name": "Telegram Gifts Marketplace",
+  "iconUrl": "https://picsum.photos/id/1015/200/200",
+  "termsOfUseUrl": "https://github.com/your-username/telegram-gifts-market",
+  "privacyPolicyUrl": "https://github.com/your-username/telegram-gifts-market"
+}

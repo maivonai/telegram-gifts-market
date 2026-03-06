@@ -1,0 +1,61 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gifts Market • TON</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tonconnect/ui@2.4.2/dist/tonconnect-ui.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Roboto+Mono:wght@400;500&amp;display=swap');
+    </style>
+</head>
+<body>
+    <div class="app">
+        <!-- HEADER -->
+        <header id="header"></header>
+
+        <!-- MAIN CONTENT -->
+        <main id="main-content">
+            <!-- MARKET TAB -->
+            <div id="tab-market" class="tab-content active">
+                <div class="filters" id="filters"></div>
+                <div class="market-grid" id="market-grid"></div>
+            </div>
+
+            <!-- MY GIFTS TAB -->
+            <div id="tab-mygifts" class="tab-content">
+                <div class="section-title">My Gifts</div>
+                <div class="market-grid" id="my-gifts-grid"></div>
+            </div>
+
+            <!-- ACTIVITY TAB -->
+            <div id="tab-activity" class="tab-content">
+                <div class="section-title">Activity</div>
+                <div class="activity-list" id="activity-list"></div>
+            </div>
+
+            <!-- STUB TABS -->
+            <div id="tab-auctions" class="tab-content">
+                <div class="coming-soon">Auctions — Coming Soon</div>
+            </div>
+            <div id="tab-lease" class="tab-content">
+                <div class="coming-soon">Lease — Coming Soon</div>
+            </div>
+            <div id="tab-gallery" class="tab-content">
+                <div class="coming-soon">Gallery — Coming Soon</div>
+            </div>
+        </main>
+
+        <!-- BOTTOM NAV -->
+        <nav id="bottom-nav"></nav>
+
+        <!-- MODALS -->
+        <div id="modal" class="modal"></div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
